@@ -25,7 +25,7 @@ To run this example skill you need to do two things. The first is to deploy the 
 
 ### Alexa Skill Setup
 1. Go to the [Alexa Console](https://developer.amazon.com/edw/home.html) and click Add a New Skill.
-2. Set "SpaceGeek" as the skill name and "space geek" as the invocation name, this is what is used to activate your skill. For example you would say: "Alexa, Ask space geek for a space fact."
+2. Set "recyclingGeek" as the skill name and "recycling geek" as the invocation name, this is what is used to activate your skill. For example you would say: "Alexa, Ask recycling geek for a recycling fact."
 3. Select the Lambda ARN for the skill Endpoint and paste the ARN copied from above. Click Next.
 4. Copy the Intent Schema from the included IntentSchema.json.
 5. Copy the Sample Utterances from the included SampleUtterances.txt. Click Next.
@@ -37,4 +37,4 @@ To run this example skill you need to do two things. The first is to deploy the 
 
 ## Examples
     User: "Alexa, ask RecycleBot for a recycling fact"
-    Alexa: "Here's your space fact: ..."
+    Alexa: "Here's your recycling fact: ..."
